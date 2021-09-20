@@ -1,0 +1,12 @@
+Bit wise 
+
+left shift  -> multiply by 2
+right shift -> divide by 2
+set bit -- to set ith bit -- a | (1 << i-1)
+unset bit -- to set to 0 --  a & ~(1 << i-1)
+toggle bit -- to set to 0 --  a ^ (1 << i-1)
+
+check ith bit is 0 or 1 -- 1 if n & (1 << i - 1) else 0
+
+
+to check if any no is even or odd -- a & 1 -- odd if 1 even if 0 
